@@ -15,17 +15,17 @@ const Yudong = () => {
     viewport={{ once: false, amount: 0.25 }}
     className={`overflow-hidden`}
   >
-    <div className='bg-[#ffffff] w-full h-screen py-16 px-4 text-black'>
+    <div className='bg-[#ffffff] w-full h-screen py-4 sm:py-16 px-4 text-black'>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
         <motion.div
             variants={planetVariants('left')}
-            className={`flex-1 ${styles.flexCenter}`}
+            className={`flex-[0.75] ${styles.flexCenter}`}
         >
-          <img className='max-w-[512px] mx-auto my-4 rounded-full' src='/images/super.png' alt="/" />
+          <img className='max-w-[512px] w-[256px] sm:w-[512px] md:w-[256px] lg:w-[512px] mx-auto my-4 rounded-full justify-center' src='/images/super.png' alt="/" />
         </motion.div> 
         <motion.div
             variants={fadeIn('left', 'tween', 0.2, 1)}
-            className="flex-[0.75] flex justify-center flex-col"
+            className="flex-1 flex justify-center flex-col lg:ml-48"
         >
             <p className='text-[#78bdf1] font-bold'>ASHS.NUTN CSIRC 【Founder】</p>
             <Typed className='text-2xl sm:text-5xl font-bold py-2'
@@ -39,9 +39,9 @@ const Yudong = () => {
                 showCursor={true}
                 loop
             />
-            <p className='font-bold'>==================================</p>
-            <p className='font-bold'>==================================</p>
-            <p className='font-bold'>==================================</p>
+            <p className='font-bold'>====================</p>
+            <p className='font-bold'>===========================</p>
+            <p className='font-bold'>=====================</p>
         </motion.div>
       </div>
     </div>
