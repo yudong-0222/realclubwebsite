@@ -8,5 +8,5 @@ You can click [Here]() to check our Website's FAQ components
 
 ## What's more?
 + 我平常睡覺的時候都閉著眼睛
-+ [ ] Add Founder page
-+ [ ] Add Link Tree Page
++ [x] Add Founder page
++ [x] Add Link Tree Page
