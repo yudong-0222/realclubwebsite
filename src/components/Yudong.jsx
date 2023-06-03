@@ -28,7 +28,7 @@ const Yudong = () => {
             className="flex-1 flex justify-center flex-col lg:ml-48"
         >
             <p className='text-[#78bdf1] font-bold'>ASHS.NUTN CSIRC 【Founder】</p>
-            <Typed className='text-2xl sm:text-5xl font-bold py-2'
+            <Typed className='text-2xl sm:text-5xl font-bold py-2 whitespace-nowrap'
                 strings={[
                   'YuDong - 吳覲宇',
                 ]}
