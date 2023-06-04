@@ -46,7 +46,7 @@ const Hero = () => {
           >
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZPJO97Ft946LkNe0Qv1wI_GOFr46RZ4tT5ZVg897O45S4XQ/viewform" target='_blank' rel='noopener noreferrer'>
               <button type="button" className="flex items-center h-fit py-5 px-16 bg-[#78BDF1] rounded-lg gap-[12px]">
-                <span className="text-white font-bold text-2xl">連署表單</span>
+                <span className="text-white font-bold text-3xl">連署表單</span>
               </button>
             </a>
           </motion.div>
