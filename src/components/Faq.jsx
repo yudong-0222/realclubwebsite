@@ -56,7 +56,7 @@ const Faq = () => {
                 >
                   <div className='w-full flex flex-col my-4 p-8 rounded-lg'>
                     <div className='min-w-[320px] rounded-xl mx-auto bg-white md:w-[660px] lg:w-[960px] sm:w-[540px] px-8 py-8' onClick={() => handleCardClick(index)}>
-                      <h2 className='lg:text-5xl md:text-5xl sm:text-4xl font-bold text-center py-8 px-1 whitespace-pre-line'>Q: {item.question}</h2>
+                      <h2 className='lg:text-5xl md:text-5xl sm:text-4xl font-bold text-center py-8 px-1 whitespace-nowrap'>Q: {item.question}</h2>
                       {cardStates[index] && 
                         <div className='py-8 md:text-4xl sm:text-5xl font-mono rounded-xl whitespace-pre-line shadow-lg'>
                           <p>A: {item.answer}</p>
