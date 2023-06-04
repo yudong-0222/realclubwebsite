@@ -39,7 +39,7 @@ export const data = [
 
 export const LinksTree = [
   {
-    title: '資訊社連屬表單',
+    title: '資訊社連署表單',
     subtitle: '如果你想成為我們的一份子，歡迎您填寫這份表單!',
     url: 'https://forms.gle/MgvNeo6yReBAzwWM9',
     icon: <FaWpforms size={65}/>
