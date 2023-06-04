@@ -32,6 +32,9 @@ const Navbar = () => {
           <a href="/founder">
             <li className='p-4 rounded-full hover:border-y-2 border-[#25AAE1]'>FOUNDER</li>
           </a>
+          <a href="/contact">
+              <li className='p-4 rounded-full hover:border-y-2 border-[#25AAE1]'>CONTACT</li>
+          </a>
         </ul>
         <div onClick={handleNav} className='block md:hidden'>
           {!nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/> }
@@ -47,6 +50,9 @@ const Navbar = () => {
             </a>
             <a href="/founder">
               <li className='p-4 '>Founder</li>
+            </a>
+            <a href="/contact">
+              <li className='p-4 '>Contact</li>
             </a>
           </ul>
         </div>
