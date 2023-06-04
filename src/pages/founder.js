@@ -10,6 +10,7 @@ const founder = () => {
       <Navbar />
       <ShiYu />
       <Yudong />
+      <Footer />
     </div>
   )
 }
