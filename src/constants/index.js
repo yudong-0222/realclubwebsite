@@ -1,7 +1,7 @@
 import { RxDiscordLogo } from 'react-icons/rx';
 import { FaWpforms } from 'react-icons/fa';
 import { BsInstagram } from 'react-icons/bs';
-import { AiOutlineFileText } from 'react-icons/ai'
+import { AiOutlineFileText, AiOutlineMail } from 'react-icons/ai'
 
 export const data = [
   {
@@ -47,7 +47,7 @@ export const LinksTree = [
   {
     title: 'Instagram',
     subtitle: '南大附中資訊社的IG',
-    url: 'https://www.instagram.com/ashs.nutn_csirc/?hl=af',
+    url: 'https://www.instagram.com/ashs.nutn_csirc/',
     icon: <BsInstagram size={65}/>
   },
   {
@@ -61,6 +61,49 @@ export const LinksTree = [
     subtitle: '專屬於社員的Discord社群，我們正在建置中...',
     url: null,
     icon: <RxDiscordLogo size={65}/>
+  },
+
+]
+
+export const contactInfo = [
+  {
+    title: "IG社團帳號",
+    descrption: "社團的Instagram帳號\n可以盡情提問:D",
+    url: 'https://www.instagram.com/ashs.nutn_csirc/',
+    icon: <BsInstagram size={45}/>
+  },
+  {
+    title: "士育IG",
+    descrption: "如果你想聯繫士育 \n點擊此處前往",
+    url: 'https://instagram.com/sy._318/',
+    icon: <BsInstagram size={45}/>
+  },
+  {
+    title: "YuDong IG",
+    descrption: "如果你想聯繫YuDong \n 你可能需要追蹤才能發送訊息 x(",
+    url: 'https://instagram.com/yudong.jar/',
+    icon: <BsInstagram size={45}/>
+  },
+]
+
+export const contactInfo2 = [
+  {
+    title: "社團電子信箱",
+    descrption: "點擊我直接導向至 \n寫信給社團信箱",
+    url: 'mailto:ashs.nutn.csirc@gmail.com',
+    icon: <AiOutlineMail size={45}/>
+  },
+  {
+    title: "士育 Discord",
+    descrption: "如果你想使用Discord 聯繫士育 \n 點擊此處",
+    url: 'https://www.discordapp.com/users/872320690160795689',
+    icon: <RxDiscordLogo size={45}/>
+  },
+  {
+    title: "YuDong Dc",
+    descrption: "如果你想用Discord 聯繫YuDung\n 你這次可以很輕鬆的聯繫 :D",
+    url: 'https://www.discordapp.com/users/386421220221911062',
+    icon: <RxDiscordLogo size={45}/>
   },
 
 ]
