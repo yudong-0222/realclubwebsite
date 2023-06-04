@@ -40,7 +40,7 @@ export const data = [
 export const LinksTree = [
   {
     title: '資訊社連署表單',
-    subtitle: '如果你想成為我們的一份子，歡迎您填寫這份表單!',
+    subtitle: '如果你想成為我們的一份子 \n歡迎您填寫這份表單!',
     url: 'https://forms.gle/MgvNeo6yReBAzwWM9',
     icon: <FaWpforms size={65}/>
   },
@@ -58,7 +58,7 @@ export const LinksTree = [
   },
   {
     title: 'Discord',
-    subtitle: '開放給所有人的Discord社群，我們正在建置中...',
+    subtitle: '開放給所有人的Discord社群 \n我們正在建置中...',
     url: null,
     icon: <RxDiscordLogo size={65}/>
   },
