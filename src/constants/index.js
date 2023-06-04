@@ -101,7 +101,7 @@ export const contactInfo2 = [
   },
   {
     title: "YuDong Dc",
-    descrption: "如果你想用Discord 聯繫YuDung\n 你這次可以很輕鬆的聯繫 :D",
+    descrption: "如果你想用Discord 聯繫YuDong \n 你這次可以很輕鬆的聯繫 :D",
     url: 'https://www.discordapp.com/users/386421220221911062',
     icon: <RxDiscordLogo size={45}/>
   },
