@@ -16,7 +16,7 @@ const ShiYu = () => {
       viewport={{ once: false, amount: 0.25 }}
       className={`overflow-hidden`}
     >
-      <div className='bg-[#000300] w-full h-screen py-16 px-4 text-white'>
+      <div className='bg-[#000300] w-full py-16 px-4 text-white'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
           <motion.div
             variants={fadeIn('left', 'tween', 0.2, 1)}
@@ -42,7 +42,7 @@ const ShiYu = () => {
               variants={planetVariants('right')}
               className={`flex-1 ${styles.flexCenter}`}
           >
-            <img className='max-w-[512px] w-[256px] sm:w-[512px] md:w-[256px] lg:w-[512px] mx-auto my-4 rounded-full lg' src='/images/shiyu.jpeg' alt="/" />
+            <img className='max-w-[256px] w-[256px] sm:w-[256px] md:w-[256px] lg:w-[256px] mx-auto my-4 rounded-full lg' src='/images/shiyu.jpeg' alt="/" />
           </motion.div> 
         </div>
       </div>

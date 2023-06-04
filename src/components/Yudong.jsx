@@ -15,13 +15,13 @@ const Yudong = () => {
     viewport={{ once: false, amount: 0.25 }}
     className={`overflow-hidden`}
   >
-    <div className='bg-[#ffffff] w-full h-screen py-4 sm:py-16 px-4 text-black'>
+    <div className='bg-[#ffffff] w-full py-4 sm:py-16 px-4 text-black'>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
         <motion.div
             variants={planetVariants('left')}
             className={`flex-[0.75] ${styles.flexCenter}`}
         >
-          <img className='max-w-[512px] w-[256px] sm:w-[512px] md:w-[256px] lg:w-[512px] mx-auto my-4 rounded-full justify-center' src='/images/super.png' alt="/" />
+          <img className='max-w-[256px] w-[256px] sm:w-[256px] md:w-[256px] lg:w-[256px] mx-auto my-4 rounded-full justify-center' src='/images/super.png' alt="/" />
         </motion.div> 
         <motion.div
             variants={fadeIn('left', 'tween', 0.2, 1)}
@@ -41,6 +41,8 @@ const Yudong = () => {
             />
             <p className='font-bold'>====================</p>
             <p className='font-bold'>===========================</p>
+            <p className='font-bold'>=====================</p>
+            <p className='font-bold'>=====================</p>
             <p className='font-bold'>=====================</p>
         </motion.div>
       </div>
