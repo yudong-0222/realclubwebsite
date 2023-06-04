@@ -26,7 +26,7 @@ export const data = [
   },
   {
     id: '5',
-    question: '學習內容？對我的課業會不會有影響？',
+    question: '學習內容?對課業會不會有影響?',
     answer: '請查閱 HACKMD 裡面有較完整的資訊歐',
   },
   {
