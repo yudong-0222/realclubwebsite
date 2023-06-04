@@ -19,7 +19,7 @@ const Cards = () => {
         > 
           <Typed className='md:text-5xl sm:text-5xl text-5xl font-bold text-[#25AAE1]'
             strings={[
-              'Feature About Us',
+              'Feature',
               '',
               '社團特色',
               '',
