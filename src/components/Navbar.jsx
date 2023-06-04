@@ -49,7 +49,7 @@ const Navbar = () => {
               <li className='p-4 border-b border-gray-600'>Link</li>
             </a>
             <a href="/founder">
-              <li className='p-4 '>Founder</li>
+              <li className='p-4 border-b border-gray-600'>Founder</li>
             </a>
             <a href="/contact">
               <li className='p-4 '>Contact</li>
