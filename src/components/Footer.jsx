@@ -30,7 +30,7 @@ const Footer = () => {
             <a href='https://www.instagram.com/ashs.nutn_csirc/' target='_blank' rel='noopener noreferrer'>                
               <FaInstagram className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md bg-[#DA2E69]"/>
             </a>
-            <a href='https://hackmd.io/@YuDong/tntcsh_csirc#FAQ---%E7%A4%BE%E5%9C%98%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C%E9%9B%86' target='_blank' rel='noopener noreferrer'>                
+            <a href='https://hackmd.io/@YuDong/ashsnutn_csirc' target='_blank' rel='noopener noreferrer'>                
               <AiOutlineFileText className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md bg-[#a6a6a6]"/>
             </a>
             <a href='https://docs.google.com/forms/d/e/1FAIpQLSfZPJO97Ft946LkNe0Qv1wI_GOFr46RZ4tT5ZVg897O45S4XQ/viewform' target='_blank' rel='noopener noreferrer'>                
