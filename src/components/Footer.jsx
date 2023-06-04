@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaInstagram } from 'react-icons/fa'
 import { AiOutlineFileText,AiOutlinePlus } from 'react-icons/ai'; 
+import { BiLinkAlt } from 'react-icons/bi';
 import styles from '../styles'
 import { motion } from 'framer-motion'
 import { footerVariants } from '../utils/motion'
@@ -31,10 +32,13 @@ const Footer = () => {
               <FaInstagram className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md bg-[#DA2E69]"/>
             </a>
             <a href='https://hackmd.io/@YuDong/ashsnutn_csirc' target='_blank' rel='noopener noreferrer'>                
-              <AiOutlineFileText className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md bg-[#a6a6a6]"/>
+              <AiOutlineFileText className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md bg-[#ffffff]"/>
             </a>
             <a href='https://docs.google.com/forms/d/e/1FAIpQLSfZPJO97Ft946LkNe0Qv1wI_GOFr46RZ4tT5ZVg897O45S4XQ/viewform' target='_blank' rel='noopener noreferrer'>                
-              <AiOutlinePlus className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md bg-[#ffffff]"/>
+              <AiOutlinePlus className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md bg-[#43ffd0]"/>
+            </a>
+            <a href='/link' rel='noopener noreferrer'>                
+              <BiLinkAlt className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md bg-[#ffffff]"/>
             </a>
           </div>
         </div>
