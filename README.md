@@ -1,5 +1,7 @@
 # ASHS.NUTN CSIRC OFFICIAL WEBSITE
 Hello there! Welcom to this repo.    
+This is the [LINK](https://ashsnutncsirc.vercel.app) to the club page.    
+If you want to check the all LINKS about club, [Click Here](https://ashsnutncsric.vercel.app/link)
 
 This is a website, made for the **Computer Science & Information Research Club.**
 
