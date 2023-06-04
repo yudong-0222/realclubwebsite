@@ -58,7 +58,7 @@ export const LinksTree = [
   },
   {
     title: 'Discord',
-    subtitle: '專屬於社員的Discord社群，我們正在建置中...',
+    subtitle: '開放給所有人的Discord社群，我們正在建置中...',
     url: null,
     icon: <RxDiscordLogo size={65}/>
   },
