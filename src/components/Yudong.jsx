@@ -21,7 +21,7 @@ const Yudong = () => {
             variants={planetVariants('left')}
             className={`flex-[0.75] ${styles.flexCenter}`}
         >
-          <img className='max-w-[256px] w-[256px] sm:w-[256px] md:w-[256px] lg:w-[256px] mx-auto my-4 rounded-full justify-center' src='/images/super.png' alt="/" />
+          <img className='max-w-[256px] w-[256px] sm:w-[256px] md:w-[256px] lg:w-[256px] mx-auto my-4 rounded-full justify-center' src='/images/super2.png' alt="/" />
         </motion.div> 
         <motion.div
             variants={fadeIn('left', 'tween', 0.2, 1)}
