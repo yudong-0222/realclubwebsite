@@ -15,7 +15,7 @@ You can click [Here]() to check our Website's FAQ components
 + [x] Add Link Tree Page
 
 
-### Change Log
+## Change Log
 
 - V0.4.1-BETA.1
     - In this version, I set the animation once to true of the NavBar, so now if you in the same page and your viewports changed, the animation that NavBar won’t disappear and show again, it will fix there.
