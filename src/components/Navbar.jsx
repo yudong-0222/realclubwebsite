@@ -15,7 +15,7 @@ const Navbar = () => {
       variants={navVariants}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.3 }}
       className={`overflow-hidden z-50`}
     >
       <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
