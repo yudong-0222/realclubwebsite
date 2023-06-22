@@ -34,9 +34,6 @@ const Footer = () => {
             <a href='https://hackmd.io/@YuDong/ashsnutn_csirc' target='_blank' rel='noopener noreferrer'>                
               <AiOutlineFileText className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md bg-[#f8ff98]"/>
             </a>
-            <a href='https://docs.google.com/forms/d/e/1FAIpQLSfZPJO97Ft946LkNe0Qv1wI_GOFr46RZ4tT5ZVg897O45S4XQ/viewform' target='_blank' rel='noopener noreferrer'>                
-              <AiOutlinePlus className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md bg-[#43ffd0]"/>
-            </a>
             <a href='/link' rel='noopener noreferrer'>                
               <BiLinkAlt className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md bg-[#7ddaff]"/>
             </a>

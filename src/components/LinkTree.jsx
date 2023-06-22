@@ -5,12 +5,34 @@ import Typed from 'react-typed';
 import { LinksTree } from '@/constants'; 
 import { staggerContainer, fadeIn, slideIn } from '@/utils/motion';
 import { useState } from 'react';
+import Swal from 'sweetalert2'
+
 
 const LinkTree = () => {
 
   const [cardStates, setCardStates] = useState([]);
+  const Toast = Swal.mixin({
+    title: '表單已關閉!',
+    text: '連署已經通過並且送交校方!',
+    icon: 'warning',
+    confirmButtonText: '歐歐好喔',
+    timer: 3000,
+    background: '#111111',
+    color: '#ffffff',
+    confirmButtonColor: '#F91389',
+    iconColor: '#3FF49A',
+    toast: true,
+    timerProgressBar: true,
+    didOpen: (toast) => {
+      toast.addEventListener('mouseenter', Swal.stopTimer)
+      toast.addEventListener('mouseleave', Swal.resumeTimer)
+    }
+  })
 
   const handleCardClick = (index) => {
+    if(index === 0) {
+      Toast.fire({})
+    }
     const newCardStates = [...cardStates];
     newCardStates[index] = !newCardStates[index];
     setCardStates(newCardStates);
@@ -18,6 +40,7 @@ const LinkTree = () => {
 
   return (
     <div>
+      
       <motion.div 
         variants={staggerContainer}
         initial="hidden"
@@ -62,6 +85,7 @@ const LinkTree = () => {
                         <div className='min-w-[320px] rounded-xl mx-auto bg-white md:w-[660px] lg:w-[960px] sm:w-[540px] px-1 py-0' onClick={() => handleCardClick(index)}>
                           <div key={index} className='flex justify-center items-center'>
                             <div key={index}>{item.icon}</div>
+
                             <h2 className='text-3xl md:text-7xl font-bold text-center py-8 px-1 whitespace-pre-line'>{item.title}</h2>
                           </div>
                           <p className='whitespace-pre-line text-2xl sm:text-3xl font-bold mb-[4%]'>{item.subtitle}</p>

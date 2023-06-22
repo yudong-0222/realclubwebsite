@@ -2,6 +2,7 @@ import { RxDiscordLogo } from 'react-icons/rx';
 import { FaWpforms } from 'react-icons/fa';
 import { BsInstagram } from 'react-icons/bs';
 import { AiOutlineFileText, AiOutlineMail } from 'react-icons/ai'
+import { Swal } from 'sweetalert2';
 
 export const data = [
   {
@@ -40,9 +41,8 @@ export const data = [
 export const LinksTree = [
   {
     title: '資訊社連署表單',
-    subtitle: '如果你想成為我們的一份子 \n歡迎您填寫這份表單!',
-    url: 'https://forms.gle/MgvNeo6yReBAzwWM9',
-    icon: <FaWpforms size={65}/>
+    subtitle: '連署時限已到期且通過門檻!表單現時關閉。',
+    icon: <FaWpforms size={65}/>,
   },
   {
     title: 'Instagram',

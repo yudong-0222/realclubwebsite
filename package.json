@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sweetalert2/themes": "^5.0.15",
     "autoprefixer": "10.4.14",
     "framer-motion": "^10.12.16",
     "next": "13.4.4",
@@ -18,7 +19,9 @@
     "react-icon": "^1.0.0",
     "react-icons": "^4.9.0",
     "react-typed": "^1.2.0",
-    "tailwindcss": "3.3.2"
+    "sweetalert2": "^11.7.12",
+    "tailwindcss": "3.3.2",
+    "vanta": "^0.5.24"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.2"

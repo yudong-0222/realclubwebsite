@@ -1,13 +1,12 @@
 import React from 'react'
 import Typed from 'react-typed';
 import { motion } from 'framer-motion';
-import { slideIn } from '../utils/motion';
 import { fadeIn } from '../utils/motion';
 
 const Hero = () => {
   return (
     <motion.div
-      variants={fadeIn('up','spring',0.7,0.9)}
+      variants={fadeIn('up','spring',0.2,0.5)}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
@@ -35,22 +34,6 @@ const Hero = () => {
 
           loop>
           </Typed>
-        <div className='flex mt-[5%] items-center flex-col gap-5'>
-          <motion.div
-            style={{ zIndex: 0 }}
-            whileHover={{ scale: 1.3 }}
-            whileTap={{ scale: 0.9 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-            variants={slideIn('down', 'pop', 1.9, 1)}
-            className='justify'
-          >
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZPJO97Ft946LkNe0Qv1wI_GOFr46RZ4tT5ZVg897O45S4XQ/viewform" target='_blank' rel='noopener noreferrer'>
-              <button type="button" className="flex items-center h-fit py-5 px-16 bg-[#78BDF1] rounded-lg gap-[12px]">
-                <span className="text-white font-bold text-3xl">連署表單</span>
-              </button>
-            </a>
-          </motion.div>
-        </div>
       </div>
     </motion.div>
   )
