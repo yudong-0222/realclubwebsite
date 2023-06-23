@@ -7,7 +7,7 @@ If you want to check the all LINKS about club, [Click Here](https://ashsnutncsri
 This is a website, made for the **Computer Science & Information Research Club.**
 
 ## How do I join ?
-You can click [Here]() to check our Website's FAQ components
+You can click [Here](https://ashsnutncsirc.vercel.app/link) to check our Website's FAQ components
 
 ## What's more?
 + 我平常睡覺的時候都閉著眼睛
@@ -18,7 +18,7 @@ You can click [Here]() to check our Website's FAQ components
 ## Change Log
 - V0.4.1
     - In this version, set the stuff that after the date of club petition, like make form which in LinkTree show alert... etc
-    - Anything that in V0.4.1-BETA.1 doesn't changed.
+    - Anything that in V0.4.1-BETA.1 doesn't changed :D .
 - V0.4.1-BETA.1
     - In this version, I set the animation once to true of the NavBar, so now if you in the same page and your viewports changed, the animation that NavBar won’t disappear and show again, it will fix there.
     - **NOTE: This version is in BETA. Does not necessarily represent the final result.**

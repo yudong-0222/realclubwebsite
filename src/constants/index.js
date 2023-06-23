@@ -46,7 +46,7 @@ export const LinksTree = [
   },
   {
     title: 'Instagram',
-    subtitle: '南大附中資訊社的IG',
+    subtitle: '南大附中資訊社IG',
     url: 'https://www.instagram.com/ashs.nutn_csirc/',
     icon: <BsInstagram size={65}/>
   },
