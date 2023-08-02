@@ -16,6 +16,9 @@ You can click [Here](https://ashsnutncsirc.vercel.app/link) to check our Website
 
 
 ## Change Log
+- V0.4.2
+    - In this version, added the school name to the Title of the Website at Navbar & Footer. In addtion, changed the avatar of YuDong :>
+    - **Our Discord Community** is coming sooooooooooooon :+1:
 - V0.4.1
     - In this version, set the stuff that after the date of club petition, like make form which in LinkTree show alert... etc
     - Anything that in V0.4.1-BETA.1 doesn't changed :D .
