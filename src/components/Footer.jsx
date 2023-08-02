@@ -20,11 +20,10 @@ const Footer = () => {
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <h4 className="w-full text-3xl font-bold text-[#52a5e5]">
-            CSIRC
-          </h4>
+          <h4 className="w-full text-xl font-bold text-[#fa7cd7]">ASHS.NUTN</h4>
+          <h4 className="w-20px text-3xl font-bold text-[#52a5e5]">CSIRC</h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            ASHS.NUTN CSIRC Since-2023
+            ASHS.NUTN CSIRC Since 2023
           </p>
 
           <div className="flex gap-4 ">
