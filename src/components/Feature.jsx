@@ -27,7 +27,7 @@ const Feature = () => {
           >
             <div className='flex flex-col justify-center'>
               <p className='text-[#78bdf1] font-bold'>Since 2023. We Started...!</p>
-              <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>ASHS.NUTN_CSIRC 南大附中 資訊社</h1>
+              <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>ASHS.NUTN CSIRC 南大附中 資訊社</h1>
               <p className='font-bold'>我們是南大附中資訊社! 這是一個剛成立的社團 我們致力於提升南大附中的資訊能力!</p>
               <p className='font-bold'>一直以來，我校的資訊資源就相當稀缺，深感在此想深造資訊能力的不便。</p>
               <p className='font-bold'>為此，我們決定開創一個新的世紀、一個新的環境、一個新的 學術社團 - 資訊研究社</p>
