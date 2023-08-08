@@ -16,6 +16,12 @@ You can click [Here](https://ashsnutncsirc.vercel.app/link) to check our Website
 
 
 ## Change Log
+- V0.4.3
+    - Add a floating arrow in the Hero section
+    - Translate the links on the Navbar to Traditional Chinese
+    - Optimize the composition
+    - Remake the Footer composition
+    - Changed Founder data 
 - V0.4.2
     - In this version, added the school name to the Title of the Website at Navbar & Footer. In addtion, changed the avatar of YuDong :>
     - **Our Discord Community** is coming sooooooooooooon :+1:
