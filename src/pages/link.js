@@ -6,11 +6,11 @@ import LinkTree from '@/components/LinkTree'
 
 const link = () => {
   return (
-    <div >
+    <>
       <Navbar />
       <LinkTree />
       <Footer /> 
-    </div>
+    </>
   )
 }
 

@@ -6,12 +6,12 @@ import ShiYu from '@/components/Shiyu'
 
 const founder = () => {
   return (
-    <div>
+    <>
       <Navbar />
       <ShiYu />
       <Yudong />
       <Footer />
-    </div>
+    </>
   )
 }
 
