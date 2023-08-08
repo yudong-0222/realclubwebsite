@@ -1,6 +1,5 @@
 # ASHS.NUTN CSIRC OFFICIAL WEBSITE
-## V0.4.1-BETA.1
-Hello there! Welcom to this repo.    
+Hello! Welcom to this repo.    
 This is the [LINK](https://ashsnutncsirc.vercel.app) to the club page.    
 If you want to check the all LINKS about club, [Click Here](https://ashsnutncsric.vercel.app/link)
 
