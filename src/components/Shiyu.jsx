@@ -34,7 +34,7 @@ const ShiYu = () => {
                 showCursor={true}
                 loop
               />
-              <p className='font-bold whitespace-pre-line'>嗨大家好 我是黃士育 目前就讀南大附中113班</p>
+              <p className='font-bold whitespace-pre-line'>嗨大家好 我是黃士育 目前就讀南大附中113→212班</p>
               <p className='font-bold'>從國中開始接觸程式設計</p>
               <p className='font-bold'>上了高中後希望能為學校提供資訊學習的環境</p>
               <p className='font-bold'>所以著手籌備資訊研究社</p>
