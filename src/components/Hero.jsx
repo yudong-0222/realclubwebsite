@@ -1,10 +1,46 @@
 import React from 'react'
 import Typed from 'react-typed';
-import { motion } from 'framer-motion';
+import { motion, useAnimation} from 'framer-motion';
 import { fadeIn } from '../utils/motion';
 
 const Hero = () => {
+  const controls = useAnimation();
+  const handleClick = () => {
+    //啟動!
+    controls.start({ y: [-20, 0, -20] });
+    smoothScrollTo('#feature');
+  };
+  // Credit by ChatGPT, helping finished the ScrollTO :D
+  const smoothScrollTo = (targetSelector) => {
+    const targetElement = document.querySelector(targetSelector);
+    if (targetElement) {
+      const startY = window.pageYOffset; //已被淘汰的用法 QQ
+      const targetY = targetElement.getBoundingClientRect().top + startY;
+
+      const duration = 1000; //毫秒為單位
+      const startTime = performance.now();
+
+      const animateScroll = (timestamp) => {
+        const elapsed = timestamp - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+
+        const easeInOutCubic = (t) => t < 0.5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2) + 1; //wtf is this how
+        const easedProgress = easeInOutCubic(progress);
+
+        window.scrollTo(0, startY + (targetY - startY) * easedProgress);
+
+        if (progress < 1) {
+          requestAnimationFrame(animateScroll);
+        } else {
+          controls.start({ y: 0 });
+        }
+      };
+
+      requestAnimationFrame(animateScroll);
+    }
+  };
   return (
+    
     <motion.div
       variants={fadeIn('up','tween',0.2,0.5)}
       initial="hidden"
@@ -35,7 +71,7 @@ const Hero = () => {
           </Typed>
       </div>
       <div className='items-center flex flex-col justify-center absolute bottom-10 w-full'>
-        <a href="#feature">
+        <a href="#feature" onClick={handleClick}>
           <motion.img
             // variants={fadeIn('up','tween', 0.3,1)}
             src='images/down_arrow.svg'
