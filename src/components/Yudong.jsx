@@ -41,13 +41,13 @@ const Yudong = () => {
             />
             <p className='font-bold'>大家好 我是吳覲宇 你可以叫我 YuDong :D</p>
             <p className='font-bold'> </p>
-            <p className='font-bold'>我從國小開始接觸Minecraft 而開始專研Spigot Plugin</p>
-            <p className='font-bold'>而除了Spigot Plugin 我也喜歡接觸與前端設計有關的東西</p>
+            <p className='font-bold'>我從國小開始接觸Minecraft <br/>而開始專研Spigot Plugin</p>
+            <p className='font-bold'>而除了Spigot Plugin <br/>我也喜歡接觸與前端設計有關的東西</p>
             <p className='font-bold'>上了高中之後發現有關於資訊方面的資源相當稀少</p>
             <p className='font-bold'>為了有效提升我校資訊能力 為此決定創辦資訊研究社</p>
             <p className='font-bold text-xl'>如果你對於【程式】【資訊】方面有興趣</p>
             <p className='font-bold text-xl'>非常歡迎你加入資訊研究社與我們一起討論歐!</p>
-            <p className='font-bold text-3xl text-fuchsia-500'>我常使用的語言有: 中文</p>
+            <p className='font-bold text-3xl text-[#5e5bff]'>我常使用的語言有: 中文</p>
         </motion.div>
       </div>
     </div>
