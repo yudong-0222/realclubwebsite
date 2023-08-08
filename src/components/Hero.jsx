@@ -9,7 +9,7 @@ const Hero = () => {
       variants={fadeIn('up','tween',0.2,0.5)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: true, amount: 0.25 }}
       className={`overflow-hidden z-0`}
     >
       <div className='-z-1 max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
@@ -35,14 +35,16 @@ const Hero = () => {
           </Typed>
       </div>
       <div className='items-center flex flex-col justify-center absolute bottom-10 w-full'>
-        <motion.img
-          // variants={fadeIn('up','tween', 0.3,1)}
-          src='images/down_arrow.svg'
-          alt='arrow-down'
-          className='w-[52px] h-[52px] object-contain'
-          animate={{ y: [-20, 0, -20]}}
-          transition= {{ duration: 2, repeat: Infinity }}
-        />
+        <a href="#feature">
+          <motion.img
+            // variants={fadeIn('up','tween', 0.3,1)}
+            src='images/down_arrow.svg'
+            alt='arrow-down'
+            className='w-[52px] h-[52px] object-contain'
+            animate={{ y: [-20, 0, -20]}}
+            transition= {{ duration: 2, repeat: Infinity }}
+          />
+        </a>
       </div>
     </motion.div>
   )
