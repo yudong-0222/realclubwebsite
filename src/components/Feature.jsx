@@ -26,14 +26,15 @@ const Feature = () => {
             className="flex-[0.75] flex justify-center flex-col"
           >
             <div className='flex flex-col justify-center'>
-              <p className='text-[#78bdf1] font-bold'>Since 2023. We Started...!</p>
-              <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>ASHS.NUTN CSIRC 南大附中 資訊社</h1>
-              <p className='font-bold'>我們是南大附中資訊社! 這是一個剛成立的社團 我們致力於提升南大附中的資訊能力!</p>
+              <p className='text-[#8bccfe] font-bold'>Since 2023. We Started...!</p>
+              <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>ASHS.NUTN CSIRC 南大附中資訊社</h1>
+              <p className='font-bold'>我們是南大附中資訊社!<br />這是一個剛成立的社團 我們致力於提升南大附中的資訊能力!</p>
               <p className='font-bold'>一直以來，我校的資訊資源就相當稀缺，深感在此想深造資訊能力的不便。</p>
-              <p className='font-bold'>為此，我們決定開創一個新的世紀、一個新的環境、一個新的 學術社團 - 資訊研究社</p>
+              <p className='font-bold'>為此，我們決定開創一個新的世紀、一個新的環境、一個新的學術社團</p>
+              <p className='font-bold text-[#48ce77] text-3xl'>資訊研究社</p>
               <p className='font-bold'>在這裡，我們將一起學習【C++】的相關知識，並且讓社員們【上機實作】</p>
               <p className='font-bold'>我們也將在這裡一起討論、研磨資訊的相關知識與技術!</p>
-              <p className='font-bold'>讓每個對於資訊有著好奇、熱忱的所有人，都有一個只屬於我們的寄宿!</p>
+              <p className='font-bold'>讓每個對於資訊有著好奇、熱忱的所有人，都有一個屬於我們的寄宿!</p>
 
               <motion.div
                 whileTap={{ scale: 0.9 }}

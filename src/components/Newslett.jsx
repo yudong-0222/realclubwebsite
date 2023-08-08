@@ -20,10 +20,10 @@ const Newslett = () => {
               className="flex-[0.75] flex justify-center flex-col"
           >
               <p className='text-[#78bdf1] font-bold'>Learning Points & Course Content</p>
-              <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>認識C++ -› 流暢運用C++</h1>
+              <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>認識C++ → 流暢運用C++</h1>
               <p className='font-bold'>除了【C++】，我們也將學習【基礎演算法】</p>
               <p className='font-bold'>這是資訊科技課沒有教過的東西，也是最令人感到興奮的地方</p>
-              <p className='font-bold'>希望藉由 認識演算法 -› 運用演算法 -› 應用於解決生活的問題</p>
+              <p className='font-bold'>希望藉由 認識演算法 → 運用演算法 → 應用於解決生活的問題</p>
           </motion.div>
           <motion.div
               variants={planetVariants('right')}
