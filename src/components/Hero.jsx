@@ -49,8 +49,11 @@ const Hero = () => {
       className={`overflow-hidden z-0`}
     >
       <div className='-z-1 max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-        <p className='text-[#78bdf1] font-bold p-2 sm:text-xl md:text-2xl'>ASHS.NUTN CSIRC</p>
-        <h1 className='md:text-7xl sm:text-6xl text-4xl font-extrabold md:py-6 py-4 text-white'>南大附中資訊社</h1>
+        <div className='flex flex-row justify-center'>
+          <p className='text-[#6d63fa] font-bold sm:text-2xl md:text-3xl'>NF</p>
+          <p className='text-[#ff63bb] font-bold sm:text-2xl md:text-3xl'>IRC</p>    
+        </div>
+        <h1 className='md:text-7xl sm:text-6xl text-4xl font-extrabold md:py-6 py-4 text-white'>南大附中資研社</h1>
         <Typed className={`typed-cursor-22 md:text-5xl sm:text-4xl text-xl font-bold text-[#1ac385]`}
         strings=
         {[

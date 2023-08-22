@@ -41,19 +41,19 @@ export const data = [
 export const LinksTree = [
   {
     title: '資訊社連署表單',
-    subtitle: '連署時限已到期且通過門檻!表單現時關閉。',
+    subtitle: '連署時限已到期且通過門檻 \n 表單現時關閉。',
     icon: <FaWpforms size={65}/>,
   },
   {
     title: 'Instagram',
-    subtitle: '南大附中資訊社IG',
-    url: 'https://www.instagram.com/ashs.nutn_csirc/',
+    subtitle: '南大附中資研社IG',
+    url: 'https://www.instagram.com/nfirc_1st/',
     icon: <BsInstagram size={65}/>
   },
   {
     title: 'HackMD',
-    subtitle: '南大附中資訊社-計畫書',
-    url: 'https://hackmd.io/@YuDong/ashsnutn_csirc',
+    subtitle: '南大附中資研社-創社計畫書',
+    url: 'https://hackmd.io/@NFIRC/founding_plan',
     icon: <AiOutlineFileText size={65}/>
   },
   {
@@ -69,7 +69,7 @@ export const contactInfo = [
   {
     title: "IG社團帳號",
     descrption: "社團的Instagram帳號\n可以盡情提問:D",
-    url: 'https://www.instagram.com/ashs.nutn_csirc/',
+    url: 'https://www.instagram.com/nfirc_1st/',
     icon: <BsInstagram size={45}/>
   },
   {

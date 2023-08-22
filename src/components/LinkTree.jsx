@@ -76,17 +76,17 @@ const LinkTree = () => {
                 {LinksTree.map((item, index) => (
                   <a href={item.url} key={index}>
                     <motion.div
-                      whileHover={{ scale: 1.1 }}
+                      whileHover={{ scale: 1.05 }}
                       transition={{ type: "spring", stiffness: 120, damping: 10 }}
                       variants={slideIn('right','spring', index * 0.5, 0.75)}
                       key={index}
                     >
                       <div className='w-full flex flex-col my-4 p-8 rounded-lg'>
-                        <div className='min-w-[320px] rounded-xl mx-auto bg-white md:w-[660px] lg:w-[960px] sm:w-[540px] px-1 py-0' onClick={() => handleCardClick(index)}>
+                        <div className='min-w-[320px] rounded-xl mx-auto bg-white md:w-[660px] lg:w-[760px] sm:w-[540px] px-1 py-0' onClick={() => handleCardClick(index)}>
                           <div key={index} className='flex justify-center items-center'>
                             <div key={index}>{item.icon}</div>
 
-                            <h2 className='text-3xl md:text-7xl font-bold text-center py-8 px-1 whitespace-pre-line'>{item.title}</h2>
+                            <h2 className='text-3xl md:text-5xl font-bold text-center py-8 px-1 whitespace-pre-line'>{item.title}</h2>
                           </div>
                           <p className='whitespace-pre-line text-2xl sm:text-3xl font-bold mb-[4%]'>{item.subtitle}</p>
                         </div>
