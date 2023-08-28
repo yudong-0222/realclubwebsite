@@ -12,7 +12,7 @@ const Feature = () => {
       viewport={{ once: false, amount: 0.25 }}
       className={`overflow-hidden`}
     >
-      <div className='bg-white w-full py-16 px-4' id='feature'>
+      <div className='bg-white w-full h-screen flex flex-col justify-center' id='feature'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
           {/* ADD FRAMER MOTION :D */}
           <motion.div

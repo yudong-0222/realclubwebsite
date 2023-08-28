@@ -18,8 +18,20 @@ const Yudong = () => {
     <div className='bg-[#ffffff] w-full py-4 sm:py-16 px-4 text-black'>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
         <motion.div
-            variants={planetVariants('left')}
+            // variants={planetVariants('left')}
             className={`flex-[0.75] ${styles.flexCenter}`}
+            animate={{
+              scale: [1, 1.2, 1.2, 1, 1],
+              rotate: [0, 0, 360, 0],
+              borderRadius: ["0%", "0%", "50%", "50%", "0%"]
+            }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              times: [0, 0.2, 0.5, 0.8, 1],
+              repeat: Infinity,
+              repeatDelay: 0.5
+            }}
         >
           <img className='max-w-[256px] w-[256px] sm:w-[256px] md:w-[256px] lg:w-[256px] mx-auto my-4 rounded-full justify-center' src='/images/YuDong.jpg' alt="/" />
         </motion.div> 

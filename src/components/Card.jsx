@@ -12,12 +12,12 @@ const Cards = () => {
       viewport={{ once: false, amount: 0.25 }}
       className={`overflow-hidden`}
     >
-      <div className='w-full py-[5rem] px-4 bg-white'>
+      <div className='w-full h-screen py-[5rem] px-4 bg-white flex flex-col justify-center'>
         <motion.div
           variants={fadeIn('down', 's', 0.0, 0.5)}
           className="text-center mx-auto flex flex-col mb-[25px]"
         > 
-          <Typed className='md:text-5xl sm:text-5xl text-5xl font-bold text-[#25AAE1]'
+          <Typed className='md:text-5xl sm:text-5xl text-5xl font-bold text-[#7cd0f4]'
             strings={[
               'Feature',
               '',
@@ -30,13 +30,13 @@ const Cards = () => {
               loop
           />
         </motion.div>
-        <div className='flex-[0.75] max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 mt-[80px]'>
+        <div className='flex-[0.75] max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 mt-[80px] w-full '>
           <motion.div
               variants={fadeIn('right', 'tween', 0.2, 1)}
           >  
             {/* //card1 */}
-            <div className='w-full shadow-xl flex flex-col p-4 md:my-0 my-4 rounded-lg hover:scale-105 duration-300'>
-              <img src='/images/codescreen.png' alt="/" className='w-[100%] rounded-xl mx-auto mt-[-3rem] bg-white'/>
+            <div className='shadow-xl flex flex-col p-4 md:my-0 my-4 rounded-lg hover:scale-105 duration-300 border-[#  '>
+              <img src='/images/codescreen.png' alt="/" className=' w-[75%] h-[50%] rounded-xl mx-auto mt-[-3rem] bg-[white]'/>
               <h2 className='text-2xl font-bold text-center py-8 sm:text-xl'>探索與發現!</h2>
               <p className='text-center text-2xl font-bold'>Searching & Finding</p>
               <div className='text-center font-medium'>
@@ -50,7 +50,7 @@ const Cards = () => {
             {/* //card2 */}
             <div className='w-full bg-gray-100 bg-transparent shadow-xl flex flex-col p-4 md:my-0 my-4 rounded-lg hover:scale-105 duration-300'>
               {/* card insidce */}
-              <img src='/images/cad.png' alt="/" className='w-[100%] rounded-xl mx-auto mt-[-3rem] bg-white'/>
+              <img src='/images/cad.png' alt="/" className=' w-[75%] h-[50%] rounded-xl mx-auto mt-[-3rem] bg-white'/>
               <h2 className='text-2xl font-bold text-center py-8 sm:text-xl'>Coding With Us!</h2>
               <p className='text-center text-2xl font-bold'>Programming & Learning</p>
               <div className='text-center font-medium'>
@@ -63,7 +63,7 @@ const Cards = () => {
           >  
             {/* //card3 */}
             <div className='w-full shadow-xl flex flex-col p-4 md:my-0 my-4 rounded-lg hover:scale-105 duration-300'>
-              <img src='/images/thinking.png' alt="/" className='w-[100%] rounded-xl mx-auto mt-[-3rem] bg-white'/>
+              <img src='/images/thinking.png' alt="/" className=' w-[75%] h-[50%] rounded-xl mx-auto mt-[-3rem] bg-white'/>
               <h2 className='text-2xl font-bold text-center py-8 sm:text-xl'>思考與深化!</h2>
               <p className='text-center text-2xl font-bold'>Thinking & Deeping</p>
               <div className='text-center font-medium'>
