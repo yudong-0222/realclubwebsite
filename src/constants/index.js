@@ -39,11 +39,6 @@ export const data = [
 
 export const LinksTree = [
   {
-    title: '資訊社連署表單',
-    subtitle: '連署時限已到期且通過門檻 \n 表單現時關閉。',
-    icon: <FaWpforms size={65}/>,
-  },
-  {
     title: 'Instagram',
     subtitle: '南大附中資研社IG',
     url: 'https://www.instagram.com/nfirc_1st/',
@@ -57,11 +52,15 @@ export const LinksTree = [
   },
   {
     title: 'Discord',
-    subtitle: '開放給所有人的Discord社群 \n我們正在建置中...',
-    url: null,
+    subtitle: '開放給所有人的Discord社群 \n歡迎大家加入一起討論！',
+    url: 'https://discord.gg/67uVqs9jAU',
     icon: <RxDiscordLogo size={65}/>
   },
-
+  {
+    title: '資研社連署表單',
+    subtitle: '連署時限已到期且通過創社門檻 \n 表單現時已關閉。',
+    icon: <FaWpforms size={65}/>,
+  },
 ]
 
 export const contactInfo = [

@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
+import { BsDiscord } from "react-icons/bs";
 import { motion } from 'framer-motion';
 import { navVariants } from '../utils/motion';
 
@@ -41,6 +42,12 @@ const Navbar = () => {
           <a href="/contact">
               <li className='p-4 rounded-full hover:border-y-4 border-[#fa7cd7]'>與我們聯繫</li>
           </a>
+          <a href="https://discord.gg/67uVqs9jAU" target='_blank' rel='noopener noreferrer'>
+            <div className='bg-[#5567E3] py-3 px-6 mt-1 rounded hover:bg-[#6F86D4] flex items-center'>
+              <p>Discord</p>
+              <BsDiscord size={20} className="ml-2 mt-1"/>
+            </div>
+          </a>
         </ul>
         <div onClick={handleNav} className='block md:hidden mt-5'>
           {!nav ? <AiOutlineClose size={25}/> : <AiOutlineMenu size={25}/> }
@@ -59,6 +66,12 @@ const Navbar = () => {
             </a>
             <a href="/contact">
               <li className='p-4 '>與我們聯繫</li>
+            </a>
+            <a href="https://discord.gg/67uVqs9jAU" target='_blank' rel='noopener noreferrer'>
+              <div className='bg-[#5567E3] py-3 px-6 mt-1 rounded hover:bg-[#6F86D4] flex items-center text-center'>
+                <BsDiscord size={24} className="mt-1"/>
+                <p className='ml-2'>Discord</p>
+              </div>
             </a>
           </ul>
         </div>

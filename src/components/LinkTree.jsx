@@ -30,7 +30,7 @@ const LinkTree = () => {
   })
 
   const handleCardClick = (index) => {
-    if(index === 0) {
+    if(index === 3) {
       Toast.fire({})
     }
     const newCardStates = [...cardStates];
