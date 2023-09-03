@@ -12,7 +12,7 @@ const Newslett = () => {
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
       className={`overflow-hidden`}
-      >      
+      >
         <div className='bg-[#1e1e1e] w-full h-screen text-white flex flex-col justify-center z-0'>
           <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
               <motion.div

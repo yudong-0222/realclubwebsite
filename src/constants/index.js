@@ -105,5 +105,23 @@ export const contactInfo2 = [
     url: 'https://www.discordapp.com/users/386421220221911062',
     icon: <RxDiscordLogo size={45}/>
   },
-
 ]
+
+export const FeatureCards = [
+  {
+    title: "探索與發現！",
+    description: "Searching & Finding",
+    img: "/images/codescreen.png"
+  },
+  {
+    title: "與我們一起寫程式！",
+    description: "Programming & Learning",
+    img: "/images/cad.png"
+  },
+  {
+    title: "思考與深化！",
+    description: "Thinking & Deeping",
+    img: "/images/thinking.png"
+  },
+]
+

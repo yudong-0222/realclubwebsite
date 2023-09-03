@@ -15,6 +15,12 @@ You can click [Here](https://ashsnutncsirc.vercel.app/link) to check our Website
 
 
 ## Change Log
+- V0.5.1
+    - YuDong avatar update :D this cool ahah
+    - change some color.
+    - yes
+- V0.5.0
+    - Forgort
 - V0.4.3
     - Add a floating arrow in the Hero section
     - Translate the links on the Navbar to Traditional Chinese
