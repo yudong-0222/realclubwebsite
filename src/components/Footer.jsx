@@ -5,6 +5,7 @@ import { BiLinkAlt } from 'react-icons/bi';
 import styles from '../styles'
 import { motion } from 'framer-motion'
 import { footerVariants } from '../utils/motion'
+import { RiDiscordLine } from 'react-icons/ri';
 
 
 
@@ -46,6 +47,9 @@ const Footer = () => {
             </a>
             <a href='/link' rel='noopener noreferrer'>                
               <BiLinkAlt className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md bg-[#7ddaff]"/>
+            </a>
+            <a href='https://discord.gg/67uVqs9jAU' rel='noopener noreferrer'>                
+              <RiDiscordLine className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md bg-[#e3eaff]"/>
             </a>
           </div>
         </div>

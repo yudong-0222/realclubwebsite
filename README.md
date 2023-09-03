@@ -15,6 +15,12 @@ You can click [Here](https://ashsnutncsirc.vercel.app/link) to check our Website
 
 
 ## Change Log
+- V0.5.2
+    - Yes, Big update.
+    - Update the Navbar -> Discord Link now is available.
+    - Add a button that can return to top of the webiste.
+    - Recode the component of Feature Cards. Now more great, also fix the shown problem on phone.
+    - Add discord Icon at footer x)
 - V0.5.1
     - YuDong avatar update :D this cool ahah
     - change some color.
