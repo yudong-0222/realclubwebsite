@@ -2,23 +2,22 @@ import { RxDiscordLogo } from 'react-icons/rx';
 import { FaWpforms } from 'react-icons/fa';
 import { BsInstagram } from 'react-icons/bs';
 import { AiOutlineFileText, AiOutlineMail } from 'react-icons/ai'
-import { Swal } from 'sweetalert2';
 
 export const data = [
   {
     id: '1',
     question: '社團未來發展？',
-    answer: '我們會以培育我校資訊科技相關知識與相關人才為主。提升我校在資訊南區競賽的競爭力。而且會寫程式的人都很帥喔 :D',
+    answer: '以培育我校資訊科技相關知識與人才為主。\n提升我校在資訊南區競賽的競爭力。\n而且會寫程式的人都很帥喔 :D',
   },
   {
     id: '2',
     question: '如何加入我們的社團？',
-    answer: '加入我們的社團非常簡單。你可以填寫我們的加入申請表格並提交給我們。我們會在收到申請後盡快聯繫你。',
+    answer: '只要將「資訊研究社」\n填在社團志願表的第一志願，就有機會加入喔！',
   },
   {
     id: '3',
     question: '會不會很難入門?會不會很冷門?',
-    answer: '理論上來說不會，我們是從基礎語法開始學，就算是完全新手也能加入一起學習！我校在資訊方面雖然沒有太多資源，但應該還是有許多同學對於此科別有興趣，為此我們統一從基礎語法開始學習',
+    answer: '理論上來說不會，我們是從基礎語法開始學\n就算是完全新手也能加入一起學習！\n我校在資訊方面雖然沒有太多資源，\n但應該還是有許多同學對於此科別有興趣，\n為此我們統一從基礎語法開始學習',
   },
   {
     id: '4',
@@ -33,7 +32,7 @@ export const data = [
   {
     id: '6',
     question: '更多問題...?',
-    answer: '點擊下方的綠色按鈕 導向HackMD的FAQ部分!',
+    answer: '點擊下方的綠色按鈕 \n 導向HackMD的FAQ部分!',
   },
   // 其他卡片的資料...
 ];
