@@ -6,7 +6,16 @@ import styles from '../styles'
 import { motion } from 'framer-motion'
 import { footerVariants } from '../utils/motion'
 
+
+
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
   <motion.footer
     variants={footerVariants}
@@ -41,6 +50,14 @@ const Footer = () => {
           </div>
         </div>
       </div>
+    </div>
+    <div className="flex sm:justify-end justify-center sm:mt-0 mt-4">
+      <button
+        onClick={scrollToTop}
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded "
+      >
+        回到頂部
+      </button>
     </div>
   </motion.footer>
   )
