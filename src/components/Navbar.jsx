@@ -42,8 +42,8 @@ const Navbar = () => {
               <li className='p-4 rounded-full hover:border-y-4 border-[#fa7cd7]'>與我們聯繫</li>
           </a>
         </ul>
-        <div onClick={handleNav} className='block md:hidden'>
-          {!nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/> }
+        <div onClick={handleNav} className='block md:hidden mt-5'>
+          {!nav ? <AiOutlineClose size={25}/> : <AiOutlineMenu size={25}/> }
         </div>
         <div className={!nav ? 'z-10 flex flex-col absolute left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500  md:hidden' : 'fixed left-[-100%] top-0 ease-in duration-500 block'}>
           <h2 className='text-3xl font-bold text-[#fa7cd7] m-4 mt-10'>南大附中<br/><div className='text-[#25AAE1]'>資研社</div></h2> 
