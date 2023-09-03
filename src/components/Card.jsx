@@ -55,7 +55,7 @@ const Cards = () => {
           ))}
         </SwipeableViews>
       </motion.div>
-      <button type="button" onClick={handleNextCard} className="mt-[2rem] py-4 px-8 bg-[#FF595A] rounded-full gap-[12px] max-lg:max-w-[50%] md:max-w-[50%] hover:scale-105 duration-500 active:bg-[#FA7CD7]">
+      <button type="button" onClick={handleNextCard} className="mt-[2rem] py-4 px-8 bg-[#FF595A] rounded-full gap-[12px] max-lg:max-w-[50%] md:max-w-[50%] hover:scale-105 duration-500 active:bg-[#c95151]">
         <span className="text-[#DECFBF] font-bold text-lg">
           下一張卡片
         </span>
