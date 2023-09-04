@@ -76,10 +76,10 @@ const Faq = () => {
               variants={slideIn('left', 'pop', 1.2, 1)}
               className='justify'
             >
-              <a href="https://hackmd.io/@NFIRC/founding_plan#FAQ---%E7%A4%BE%E5%9C%98%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C%E9%9B%86" target='_blank' rel='noopener noreferrer'>
+              <a href="https://hackmd.io/@NFIRC/FAQ" target='_blank' rel='noopener noreferrer'>
                 <button type="button" className="flex items-center h-fit py-5 px-16 bg-[#FA7CD7] rounded-full gap-[12px]">
                   <span className="text-white font-bold text-2xl">
-                    點我前往HackMD
+                    點我前往 HackMD 問題集
                   </span>
                 </button>
               </a>
