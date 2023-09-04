@@ -31,6 +31,12 @@ export const LinksTree = [
   },
   {
     title: 'HackMD',
+    subtitle: '南大附中資研社-社團運作規劃',
+    url: 'https://hackmd.io/@NFIRC/formal_plan',
+    icon: <AiOutlineFileText size={65}/>
+  },
+  {
+    title: 'HackMD',
     subtitle: '南大附中資研社-創社計畫書',
     url: 'https://hackmd.io/@NFIRC/founding_plan',
     icon: <AiOutlineFileText size={65}/>

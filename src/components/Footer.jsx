@@ -42,7 +42,7 @@ const Footer = () => {
             <a href='https://www.instagram.com/nfirc_1st/' target='_blank' rel='noopener noreferrer'>                
               <img src="/images/ig.png" alt="ig" className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md"/>
             </a>
-            <a href='https://hackmd.io/@NFIRC/founding_plan' target='_blank' rel='noopener noreferrer'>                
+            <a href='https://hackmd.io/@NFIRC/formal_plan' target='_blank' rel='noopener noreferrer'>                
               <img src="/images/hackmd.png" alt="hackmd" className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md"/>
             </a>
             <a href='/link' rel='noopener noreferrer'>                
