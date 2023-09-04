@@ -15,6 +15,12 @@ You can click [Here](https://ashsnutncsirc.vercel.app/link) to check our Website
 
 
 ## Change Log
+- V0.5.3
+    - Adjust bad components from v0.5.2, 
+    - Update the Navbar, added FAQ page. (FAQ page independent from the main page)
+    - Reorganize the Navbar link. 
+    - Update Cards. Now have more cards and picture.
+    - Footer Icon changed. Now better than v0.5.2 that shit.
 - V0.5.2
     - Yes, Big update.
     - Update the Navbar -> Discord Link now is available.

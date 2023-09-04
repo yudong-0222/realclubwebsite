@@ -6,33 +6,18 @@ import { AiOutlineFileText, AiOutlineMail } from 'react-icons/ai'
 export const data = [
   {
     id: '1',
-    question: '社團未來發展？',
-    answer: '以培育我校資訊科技相關知識與人才為主。\n提升我校在資訊南區競賽的競爭力。\n而且會寫程式的人都很帥喔 :D',
-  },
-  {
-    id: '2',
     question: '如何加入我們的社團？',
     answer: '只要將「資訊研究社」\n填在社團志願表的第一志願，就有機會加入喔！',
   },
   {
+    id: '2',
+    question: '社團未來發展？',
+    answer: '以培育我校資訊科技相關知識與人才為主。\n提升我校在資訊南區競賽的競爭力。\n而且會寫程式的人都很帥喔 :D',
+  },
+  {
     id: '3',
-    question: '會不會很難入門?會不會很冷門?',
-    answer: '理論上來說不會，我們是從基礎語法開始學\n就算是完全新手也能加入一起學習！\n我校在資訊方面雖然沒有太多資源，\n但應該還是有許多同學對於此科別有興趣，\n為此我們統一從基礎語法開始學習',
-  },
-  {
-    id: '4',
-    question: '跟資訊學程有什麼差別？',
-    answer: '請查閱 HACKMD 裡面有較完整的資訊歐',
-  },
-  {
-    id: '5',
-    question: '學習內容?對課業會不會有影響?',
-    answer: '請查閱 HACKMD 裡面有較完整的資訊歐',
-  },
-  {
-    id: '6',
     question: '更多問題...?',
-    answer: '點擊下方的綠色按鈕 \n 導向HackMD的FAQ部分!',
+    answer: '點擊下方的綠色按鈕 \n 導向HackMD的FAQ頁面!',
   },
   // 其他卡片的資料...
 ];
@@ -51,7 +36,7 @@ export const LinksTree = [
     icon: <AiOutlineFileText size={65}/>
   },
   {
-    title: 'Discord',
+    title: 'Discord 社群',
     subtitle: '開放給所有人的Discord社群 \n歡迎大家加入一起討論！',
     url: 'https://discord.gg/67uVqs9jAU',
     icon: <RxDiscordLogo size={65}/>
@@ -107,18 +92,28 @@ export const contactInfo2 = [
 
 export const FeatureCards = [
   {
+    title: "社群討論與共學！",
+    description: "社群討論與共學為進步的一大動力",
+    img: "/images/community.png"
+  },
+  {
+    title: "促進資訊素養，培養邏輯思考能力！",
+    description: "由討論資訊相關主題，了解現今技術與科技",
+    img: "/images/info.png"
+  },
+  {
     title: "探索與發現！",
-    description: "Searching & Finding",
-    img: "/images/codescreen.png"
+    description: "發現與解決，樂此不疲",
+    img: "/images/search.png"
   },
   {
     title: "與我們一起寫程式！",
-    description: "Programming & Learning",
+    description: "與我們一起燒雞！",
     img: "/images/cad.png"
   },
   {
     title: "思考與深化！",
-    description: "Thinking & Deeping",
+    description: "深思熟慮是AC的綠！",
     img: "/images/thinking.png"
   },
 ]

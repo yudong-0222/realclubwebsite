@@ -19,9 +19,7 @@ const Navbar = () => {
       viewport={{ once: true, amount: 0.3}}
       className={`overflow-hidden z-50`}
     >
-      {/* 未來加上Logo */}
-      {/* <img className=' max-w-[64px] w-[64px] sm:w-[64px] md:w-[64px] lg:w-[64px] rounded-xl' src='/images/super2.png' alt="/" /> */}
-      <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white mt-2 font-bold'>
+      <div className='flex justify-between items-center h-24 max-w-[1500px] mx-auto px-4 text-white mt-2 font-bold'>
         <a href="/">
           <div className='mt-6 flex flex-row items-center'>
             <img src="images/LOGO.png" alt="logo" className='max-w-16 max-h-16 mr-2' />
@@ -31,20 +29,23 @@ const Navbar = () => {
         </a>
         <ul className='hidden : md:flex mt-6'>
           <a href="/">
-            <li className='p-4 rounded-full hover:border-y-4 border-[#25AAE1]'>主頁</li>
-          </a>
-          <a href="/link">
-            <li className='p-4 rounded-full hover:border-y-4 hover: border-[#fa7cd7]'>連結</li>
+            <li className='p-4 rounded-full hover:border-x-2 border-[#25AAE1]'>主頁</li>
           </a>
           <a href="/founder">
-            <li className='p-4 rounded-full hover:border-y-4 border-[#25AAE1]'>創辦團隊</li>
+            <li className='p-4 rounded-xl hover:border-x-2 border-[#fa7cd7]'>創辦團隊</li>
           </a>
           <a href="/contact">
-              <li className='p-4 rounded-full hover:border-y-4 border-[#fa7cd7]'>與我們聯繫</li>
+              <li className='p-4 rounded-lg hover:border-x-2 border-[#25AAE1]'>聯繫我們</li>
+          </a>
+          <a href="/faq">
+            <li className='p-4 rounded hover:border-x-2 hover: border-[#fa7cd7]'>FAQ</li>
+          </a>
+          <a href="/link">
+            <li className='p-4 rounded-2xl hover:border-x-2 hover: border-[#25AAE1]'>相關連結</li>
           </a>
           <a href="https://discord.gg/67uVqs9jAU" target='_blank' rel='noopener noreferrer'>
-            <div className='bg-[#5567E3] py-3 px-6 mt-1 rounded hover:bg-[#6F86D4] flex items-center'>
-              <p>Discord</p>
+            <div className='bg-[#5567E3] py-3 px-4 mt-1 rounded hover:bg-[#6F86D4] flex items-center'>
+              <p>Discord 社群</p>
               <BsDiscord size={20} className="ml-2 mt-1"/>
             </div>
           </a>
@@ -58,19 +59,22 @@ const Navbar = () => {
             <a href="/">
               <li className='p-4 border-b border-gray-600'>主頁</li>
             </a>
-            <a href="/link">
-              <li className='p-4 border-b border-gray-600'>連結</li>
-            </a>
             <a href="/founder">
               <li className='p-4 border-b border-gray-600'>創辦團隊</li>
             </a>
             <a href="/contact">
-              <li className='p-4 '>與我們聯繫</li>
+              <li className='p-4 border-b border-gray-600'>聯繫我們</li>
+            </a>
+            <a href="/faq">
+              <li className='p-4 border-b border-gray-600'>FAQ</li>
+            </a>
+            <a href="/link">
+              <li className='p-4 border-b border-gray-600'>相關連結</li>
             </a>
             <a href="https://discord.gg/67uVqs9jAU" target='_blank' rel='noopener noreferrer'>
               <div className='bg-[#5567E3] py-3 px-6 mt-1 rounded hover:bg-[#6F86D4] flex items-center text-center'>
                 <BsDiscord size={24} className="mt-1"/>
-                <p className='ml-2'>Discord</p>
+                <p className='ml-2'>Discord 社群</p>
               </div>
             </a>
           </ul>

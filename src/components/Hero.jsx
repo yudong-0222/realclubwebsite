@@ -57,6 +57,7 @@ const Hero = () => {
         <Typed className={`typed-cursor-22 md:text-5xl sm:text-4xl text-xl font-bold text-[#1ac385]`}
         strings=
         {[
+          '學弟妹加資研！',
           'Hello, World!',
           'Zero to Hero',
           'Since 2023',
@@ -69,7 +70,6 @@ const Hero = () => {
           startDelay={1000}
           backDelay={1500}   
           autoInsertCss={true}
-
           loop>
           </Typed>
       </div>

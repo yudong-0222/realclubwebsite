@@ -36,20 +36,20 @@ const Footer = () => {
         </div>
         <div className="flex items-center justify-center flex-wrap gap-4">
           <p className="w-full font-normal text-[14px] text-white opacity-50 text-center items-center">
-            Since 2023
+            © 2023 NFIRC. All rights reserved
           </p>
           <div className="flex gap-4">
             <a href='https://www.instagram.com/nfirc_1st/' target='_blank' rel='noopener noreferrer'>                
-              <FaInstagram className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md bg-[#DA2E69]"/>
+              <img src="/images/ig.png" alt="ig" className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md"/>
             </a>
             <a href='https://hackmd.io/@NFIRC/founding_plan' target='_blank' rel='noopener noreferrer'>                
-              <AiOutlineFileText className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md bg-[#f8ff98]"/>
+              <img src="/images/hackmd.png" alt="hackmd" className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md"/>
             </a>
             <a href='/link' rel='noopener noreferrer'>                
-              <BiLinkAlt className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md bg-[#7ddaff]"/>
+              <img src="/images/link.png" alt="link" className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md"/>
             </a>
             <a href='https://discord.gg/67uVqs9jAU' rel='noopener noreferrer'>                
-              <RiDiscordLine className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md bg-[#e3eaff]"/>
+              <img src="/images/discordla.png" alt="dc" className="w-[24px] h-[24px] object-contain cursor-pointer rounded-md"/>
             </a>
           </div>
         </div>
