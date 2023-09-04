@@ -35,6 +35,7 @@ const Faq = () => {
               strings={[
                 'FAQ',
                 '問題集',
+                'FAQ 問題集',
               ]}
               typeSpeed={140}
               backSpeed={150}

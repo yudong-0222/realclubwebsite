@@ -41,7 +41,7 @@ const Navbar = () => {
             <li className='p-4 rounded-2xl hover:border-x-2 hover: border-[#25AAE1]'>相關連結</li>
           </a>
           <a href="/faq">
-            <li className='p-4 rounded hover:border-x-2 hover: border-[#fa7cd7]'>FAQ</li>
+            <li className='p-4 rounded hover:border-x-2 hover: border-[#fa7cd7]'>FAQ 問題集</li>
           </a>
           <a href="https://discord.gg/67uVqs9jAU" target='_blank' rel='noopener noreferrer'>
             <div className='bg-[#5567E3] py-3 px-4 mt-1 rounded hover:bg-[#6F86D4] flex items-center'>
@@ -69,7 +69,7 @@ const Navbar = () => {
               <li className='p-4 border-b border-gray-600'>相關連結</li>
             </a>
             <a href="/faq">
-              <li className='p-4 border-b border-gray-600'>FAQ</li>
+              <li className='p-4 border-b border-gray-600'>FAQ 問題集</li>
             </a>
             <a href="https://discord.gg/67uVqs9jAU" target='_blank' rel='noopener noreferrer'>
               <div className='bg-[#5567E3] py-3 px-6 mt-1 rounded hover:bg-[#6F86D4] flex items-center text-center'>
