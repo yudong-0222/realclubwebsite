@@ -21,9 +21,9 @@ const Yudong = () => {
             // variants={planetVariants('left')}
             className={`flex-[0.75] ${styles.flexCenter}`}
             animate={{
-              scale: [1, 1.2, 1.2, 1, 1],
+              scale: [1, 1.2, 1.2, 1.2,1.2,1.2,1.2,1.2,1.2,1.2,1.2, 1,1],
               rotate: [0, 0, 360, 0],
-              borderRadius: ["0%", "0%", "50%", "50%", "0%"]
+              borderRadius: ["0%", "0%", "50%", "50%","50%","50%","50%", "0%"]
             }}
             transition={{
               duration: 2,
@@ -33,7 +33,7 @@ const Yudong = () => {
               repeatDelay: 0.5
             }}
         >
-          <img className='max-w-[256px] w-[256px] sm:w-[256px] md:w-[256px] lg:w-[256px] mx-auto my-4 rounded-full justify-center' src='https://gravatar.com/userimage/243991767/f087db6f0ae114803a0cae3d1ee08afe.jpeg?size=1080' alt="/" />
+          <img className='max-w-[256px] w-[256px] sm:w-[256px] md:w-[256px] lg:w-[256px] mx-auto my-4 rounded-full justify-center ' src='https://gravatar.com/userimage/243991767/f087db6f0ae114803a0cae3d1ee08afe.jpeg?size=1080' alt="/" />
         </motion.div> 
         <motion.div
             variants={fadeIn('left', 'tween', 0.2, 1)}
