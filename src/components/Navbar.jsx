@@ -34,14 +34,14 @@ const Navbar = () => {
           <a href="/founder">
             <li className='p-4 rounded-xl hover:border-x-2 border-[#fa7cd7]'>創辦團隊</li>
           </a>
-          <a href="/contact">
-              <li className='p-4 rounded-lg hover:border-x-2 border-[#25AAE1]'>聯繫我們</li>
-          </a>
+          <a href="/faq">
+            <li className='p-4 rounded hover:border-x-2 hover: border-[#fa7cd7]'>FAQ 問題集</li>
+          </a>          
           <a href="/link">
             <li className='p-4 rounded-2xl hover:border-x-2 hover: border-[#25AAE1]'>相關連結</li>
           </a>
-          <a href="/faq">
-            <li className='p-4 rounded hover:border-x-2 hover: border-[#fa7cd7]'>FAQ 問題集</li>
+          <a href="/contact">
+              <li className='p-4 rounded-lg hover:border-x-2 border-[#25AAE1]'>聯繫我們</li>
           </a>
           <a href="https://discord.gg/67uVqs9jAU" target='_blank' rel='noopener noreferrer'>
             <div className='bg-[#5567E3] py-3 px-4 mt-1 rounded hover:bg-[#6F86D4] flex items-center'>

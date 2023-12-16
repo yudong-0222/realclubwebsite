@@ -33,7 +33,7 @@ const Yudong = () => {
               repeatDelay: 0.5
             }}
         >
-          <img className='max-w-[256px] w-[256px] sm:w-[256px] md:w-[256px] lg:w-[256px] mx-auto my-4 rounded-full justify-center' src='/images/YuDong.jpg' alt="/" />
+          <img className='max-w-[256px] w-[256px] sm:w-[256px] md:w-[256px] lg:w-[256px] mx-auto my-4 rounded-full justify-center' src='https://gravatar.com/userimage/224016933/f6bfd1b5b450b1df3d21b528fc1deebf.jpeg?size=256' alt="/" />
         </motion.div> 
         <motion.div
             variants={fadeIn('left', 'tween', 0.2, 1)}
